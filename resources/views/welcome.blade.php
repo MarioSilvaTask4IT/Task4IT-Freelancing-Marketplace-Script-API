@@ -3,7 +3,7 @@
     <head>
         <title>Laravel</title>
 
-        <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
 
         <style>
             html, body {
@@ -18,6 +18,7 @@
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
+                margin:0 auto;
             }
 
             .container {
@@ -33,18 +34,18 @@
 
             .title {
                 font-size: 96px;
-                margin-bottom: 40px;
+                margin-bottom: 35px;
             }
 
             .quote {
-                font-size: 24px;
+                font-size: 25px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5.4</div>
                 <div class="quote">{{ Inspiring::quote() }}</div>
             </div>
         </div>
